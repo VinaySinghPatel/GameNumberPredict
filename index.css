@@ -1,0 +1,363 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#MainBox{
+height: 100vh;
+width: 100%;
+background-color: rgb(201, 201, 20);
+justify-content: center;
+text-align: center;
+align-items: center;
+}
+#MainDiv{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+text-align: center;
+align-items: center;
+}
+#Nav{
+    display: flex;
+    flex-direction:column;
+    height: 5vh;
+    background-color: black;
+}
+nav{
+    color: white;
+        display: flex;
+        flex-direction:row;     
+}
+span{
+  margin-top: 0.5em;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#HomeButton{
+    cursor: pointer;
+margin-left: 6em;
+}
+#Time{
+    cursor: pointer;
+margin-left: 27em;
+}
+#Time1{
+    cursor: pointer;
+    margin-left: 1em;
+}
+#ReadAboutButton{
+    cursor: pointer;
+margin-left: 20em;
+}
+#ContactUsButton{
+    cursor: pointer;
+margin-left: 3em;
+}
+
+
+#game_Tag{
+    margin-top: 5vh;
+}
+#GameName{
+    cursor: pointer;
+    margin-top: 5vh;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+#SmallTag{
+    cursor: pointer;
+}
+hr{
+    color: black;
+}
+
+#New_Reset{
+    box-shadow: 0px 0px 10px;
+    margin-top: 9vh;
+    margin-left: 50vh;
+    height: 8vh;
+    width: 90vh;
+    background-color: rgb(223, 10, 10);
+    border-radius: 3em 3em 0em 0em;
+}
+#NewGame{
+    margin-top: 1em;
+    margin-left: 0em;
+    padding: 0.51em;
+    width: 13em;
+    border-radius: 2em;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#NewGame:hover{
+    color: white;
+    background-color: green;
+    box-shadow: 0px 0px 5px black;
+}
+#ResetGame{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.51em;
+    width: 13em;
+    border-radius: 2em;
+}
+#ResetGame:hover{
+    color: white;
+    background-color: green;
+    box-shadow: 0px 0px 5px black;
+}
+
+
+
+
+
+
+#Direction{
+    margin-top: 2vh;
+}
+#startEnd{
+    color: green;
+    /* border: 2px solid black; */
+}
+#First{
+    margin-left: 0em;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+}
+#one{
+    height: 10vh;
+    width: 10vh;
+    margin-left: 0.9em;
+    background-color: black;
+    border: 2px solid white;
+    box-shadow: 0px 0px 9px black;
+    text-align: center;
+    justify-content: center;
+    font-size: 3em;
+    color: black;
+}
+#one:hover{
+        color: white;
+}
+#second{
+    height: 10vh;
+    width: 10vh;
+     background-color: black;
+    border: 2px solid white;
+    box-shadow: 0px 0px 9px black;
+    margin-left: 0.4em;
+    font-size: 3em;
+    color: black;
+}
+#second:hover{
+    color: white;
+}
+#three{
+    height: 10vh;
+    width: 10vh;
+    background-color: black;
+    border: 2px solid white;
+    box-shadow: 0px 0px 9px black;
+    margin-left: 1em; margin-left: 0.4em;
+    font-size: 3em;
+    color: black;
+}
+#three:hover{
+    color: white;
+}
+#four{
+    height: 10vh;
+    width: 10vh;
+    background-color: black;
+    border: 2px solid white;
+    box-shadow: 0px 0px 9px black;
+    margin-left: 1em;
+    margin-left: 0.4em;
+    font-size: 3em;
+    color: black;
+}
+#four:hover{
+    color: white;
+}
+#five{
+    height: 10vh;
+    width: 10vh;
+    background-color: black;
+    border: 2px solid white;
+    box-shadow: 0px 0px 9px black;
+    margin-left: 1em;
+    margin-left: 0.4em;
+    font-size: 3em;
+    color: black;
+}
+#five:hover{
+    color: white;
+}
+#six{
+    height: 10vh;
+    width: 10vh;
+    background-color: black;
+    border: 2px solid white;
+    box-shadow: 0px 0px 9px black;
+    margin-left: 1em; 
+    margin-left: 0.4em;
+    font-size: 3em;
+    color: black;
+}
+#six:hover{
+    color: white;
+}
+#Second{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.4em;
+    margin-top: 2em;
+}
+#seven{
+    height: 10vh;
+    width: 10vh;
+    background-color: black;
+    border: 2px solid white;
+    box-shadow: 0px 0px 9px black;
+    margin-left: 0.9em;
+    margin-left: 0.4em;
+    font-size: 3em;
+    color: black;
+}
+#seven:hover{
+    color: white;
+}
+#Eight{
+    height: 10vh;
+    width: 10vh;
+    background-color: black;
+    border: 2px solid white;
+    box-shadow: 0px 0px 9px black;
+    margin-left: 0.4em;
+    font-size: 3em;
+    color: black;
+}
+#Eight:hover{
+    color: white;
+}
+#Nine{
+    height: 10vh;
+    width: 10vh;
+    background-color: black;
+    border: 2px solid white;
+    box-shadow: 0px 0px 9px black;
+    margin-left: 0.4em;
+    font-size: 3em;
+    color: black;
+}
+#Nine:hover{
+    color: white;
+}
+#Ten{
+    height: 10vh;
+    width: 10vh;
+    background-color: black;
+    border: 2px solid white;
+    box-shadow: 0px 0px 9px black;
+    margin-left: 0.4em;
+    font-size: 3em;
+    color: black;
+}
+#Ten:hover{
+    color: white;
+}
+#Eleven{
+    height: 10vh;
+    width: 10vh;
+    background-color: black;
+    border: 2px solid white;
+    box-shadow: 0px 0px 9px black;
+    margin-left: 0.4em;
+    font-size: 3em;
+    color: black;
+}
+#Eleven:hover{
+    color: white;
+}
+#Twelve{
+    height: 10vh;
+    width: 10vh;
+    background-color: black;
+    border: 2px solid white;
+    box-shadow: 0px 0px 9px black;
+    margin-left: 0.4em;
+    font-size: 3em;
+    color: black;
+}
+#Twelve:hover{
+    color: white;
+}
+
+#Rules{
+    margin-top: 3vh;
+}
+#GameOver{
+    overflow: hidden; 
+    font-size: 6em;
+padding: 100px;
+}
+
+#Three{
+    display: flex;
+    flex-direction: row;
+}
+#MainWork{
+    border-radius: 0px 0px 3em 3em;
+    box-shadow: 0px 0px 10px;
+    margin-left: 50vh; 
+    height: 50vh;
+    width: 90vh;
+    background-color: white;
+    /* justify-content: center;
+text-align: center;
+align-items: center; */
+display: flex;
+    flex-direction: column;
+}
+
+#UserTwo{
+    border-radius: 2em;
+    margin-top: 10vh;
+    margin-left: 15vh;
+    height: 22vh;
+    width: 20vh;
+    background-color:antiquewhite;
+    box-shadow: 0px 0px 10px black;
+    display: flex;
+    flex-direction: column;
+}
+#UserOne{
+    display: flex;
+    flex-direction: column;
+    border-radius: 2em;
+    margin-left: 15vh;
+    height: 22vh;
+    width: 20vh;
+    background-color:antiquewhite;
+    margin-top: 10vh;
+    box-shadow: 0px 0px 10px black;
+}
+#Player{
+    font-size: 2em;
+        margin-top: 1em;
+        font-size: bolder;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+}
+#Score{
+
+}
+#ScOne{
+
+}
+#ScTwo{
+
+}
